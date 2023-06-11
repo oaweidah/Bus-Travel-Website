@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<style>
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-color: #8EA1B6;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    #webheader {
+        background-color: #001423;
+        margin-top: -30px;
+        height: 100px;
+        width: 100%;
+    }
+
+    #weblogo {
+        float: left;
+        padding: 20px;
+        height: 65px;
+    }
+
+    #webname {
+        color: white;
+        font-style: bold;
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    #optiontext1 {
+        margin-right: 10px;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #optiontext2 {
+        margin-right: 50px;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #optiontext3 {
+        margin-right: 50px;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #weboption {
+        width: 500px;
+        float: right;
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    #signup {
+        margin-top: -19px;
+        margin-right: 510px;
+        background-color: mediumseagreen;
+        border-width: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: 15px;
+        width: 75px;
+        height: 21px;
+        float: right;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #2C3E50;
+}
+
+    #signup:hover {
+        background-color: #8ad1a9;
+    }
+
+    #getstarted {
+        margin-top: 60px;
+        margin-left: 450px;
+        background-color: #8EA1B6;
+        border-width: 0px;
+        border-radius: 3px;
+        color: #001423;
+        font-size: 30px;
+        width: 190px;
+        height: 70px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    div {
+        margin-top: -10px;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        margin-top: 0px;
+        margin-left: 480px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    a:hover {
+    background-color: #8EA1B6;
+    border-radius: 3px;
+    border: 2px solid #324153;
+    }
+
+    #welcomepage {
+    margin-left: 480px;
+    width: 300px;
+    }
+
+    #welcomepageinput {
+    background-color: #8EA1B6;
+    border-radius: 5px;
+    border: 3px solid #001423;
+    margin-top: 0px;
+    height: 25px;
+    }
+
+    #welcomepagetitle {
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 300px;
+    padding: 19px;
+    color: white;
+    }
+
+    #findbuses {
+        margin-top: 30px;
+        margin-left: 580px;
+        background-color: mediumseagreen;
+        border-width: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #findbuses:hover {
+        background-color: #8ad1a9;
+    }
+</style>
+<body>
+    <header id='webheader'>
+        <img id='weblogo' src='logo.png'>
+        <p id='webname'>SoftwareDrip</p>
+        <div id='weboption'>
+            <a id='optiontext3' href='/book.html'>Book a Bus</a>
+            <a id='optiontext2' href='/check.html'>Check Booking</a>
+            <a id='optiontext1' href='/admin.html'>Admin Login</a>
+            <button id='signup' onClick="window.location='/signup.html';">Sign Up</button>
+        </div>
+    </header>
+    <div style="background-image: url('ef.jpg');">
+        <br>
+        <h1>Where will you go?</h1>
+        <table id='welcomepagetitle'>
+            <tr><td>From</td><td>To</td></tr>
+        </table>
+        <form action='/search' method='post'>
+        <table id='welcomepage'>
+            <tr><td><input type='text' id='welcomepageinput' name='key1' required></td><td><input type='text' id='welcomepageinput' name='key2' required></td></tr>
+        </table>
+        <input type='submit' id='findbuses' value='Search'>
+        </form>
+    </div>
+</body>
+</html>

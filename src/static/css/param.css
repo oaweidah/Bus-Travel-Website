@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #8EA1B6;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#webheader {
+    background-color: #001423;
+    margin-top: -30px;
+    height: 100px;
+    width: 100%;
+}
+
+#weblogo {
+    float: left;
+    padding: 20px;
+    height: 65px;
+}
+
+#webname {
+    color: white;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+#optiontext1 {
+    margin-right: 10px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#optiontext2 {
+    margin-right: 50px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#optiontext3 {
+    margin-right: 50px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#weboption {
+    width: 500px;
+    float: right;
+    margin-top: -60px;
+    text-align: center;
+}
+
+#signup {
+    margin-top: -19px;
+    margin-right: 510px;
+    background-color: mediumseagreen;
+    border-width: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    width: 75px;
+    height: 21px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2 {
+    color: #001423;
+    text-align: center;
+}
+
+h3 {
+    color: #001423;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #001423;
+    border-width: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2C3E50;
+}
+
+button {
+    background-color: #001423;
+    border-width: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+th {
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #001423;
+    color: white;
+    top: 0;
+    position: sticky;
+}
+
+#table1 {
+    margin-left:38%;
+}
+
+#table2 {
+    margin-left:9%;
+}
+
+#table3 {
+    margin-left:30%;
+}
+
+#table4 {
+    margin-left:36%;
+}
+
+#table5 {
+    margin-left:36%;
+}
+
+#table6 {
+    margin-left:25%;
+}
+
+#table7 {
+    margin-left:10%;
+}
+
+#table8 {
+    margin-left:28%;
+}
+
+#table9 {
+    margin-left:8%;
+}
+
+#table10 {
+    margin-left:15%;
+}
+
+#table11 {
+    margin-left:35%;
+}
+
+#table12 {
+    margin-left:8%;
+}
+
+#table13 {
+    margin-left:40%;
+}
+
+#table14 {
+    margin-left:14%;
+}
+
+#table15 {
+    margin-left:16%;
+}
+
+#table16 {
+    margin-left:12%;
+}
+
+#loginbutton {
+    background-color: #001423;
+    border-width: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    height: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 56%;
+}
+
+#submittd {
+    background-color: #8EA1B6;
+}
+
+a:hover {
+    background-color: #8EA1B6;
+    border-radius: 3px;
+    border: 2px solid #324153;
+}
+
+#signup:hover {
+    background-color: #8ad1a9;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #8EA1B6;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    #webheader {
+        background-color: #001423;
+        margin-top: -30px;
+        height: 100px;
+        width: 100%;
+    }
+
+    #weblogo {
+        float: left;
+        padding: 20px;
+        height: 65px;
+    }
+
+    #webname {
+        color: white;
+        font-style: bold;
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    #optiontext1 {
+        margin-right: 10px;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #optiontext2 {
+        margin-right: 50px;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #optiontext3 {
+        margin-right: 50px;
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    #weboption {
+        width: 500px;
+        float: right;
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    #signup {
+        margin-top: -19px;
+        margin-right: 510px;
+        background-color: mediumseagreen;
+        border-width: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: 15px;
+        width: 75px;
+        height: 21px;
+        float: right;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    h1 {
+        color: #001423;
+        text-align: center;
+    }
+
+    table {
+        margin-left: 500px;
+    }
+
+    #submitbutton {
+        margin-top: 20px;
+        margin-left: 641px;
+        background-color: #001423;
+        border-width: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: 15px;
+        width: 100px;
+        height: 21px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    a:hover {
+    background-color: #8EA1B6;
+    border-radius: 3px;
+    border: 2px solid #324153;
+    }
+
+    #signup:hover {
+        background-color: #8ad1a9;
+    }
+
+    input[type=submit]:hover {
+    background-color: #2C3E50;
+}
+</style>
+<body>
+    <header id='webheader'>
+        <img id='weblogo' src='logo.png'>
+        <p id='webname'>SoftwareDrip</p>
+        <div id='weboption'>
+            <a id='optiontext3' href='/book.html'>Book a Bus</a>
+            <a id='optiontext2' href='/check.html'>Check Booking</a>
+            <a id='optiontext1' href='/admin.html'>Admin Login</a>
+            <button id='signup' onClick="window.location='/signup.html';">Sign Up</button>
+        </div>
+    </header>
+    <h1>Sign Up!</h1>
+    <form action='/signUp' method='post'>
+        <table>
+            <tr><td>Username:</td><td><input type='text' name='uinput' required placeholder='Username'><br></td></tr>
+            <tr><td>First Name:</td><td><input type='text' name='fname' placeholder='First Name'><br></td></tr>
+            <tr><td>Last Name:</td><td><input type='text' name='lname' placeholder='Last Name'><br></td></tr>
+            <tr><td>Email Address:</td><td><input type='text' name='email' required placeholder='Email'><br></td></tr>
+            <tr><td>Phone Number:</td><td><input type='text' name='phone' required placeholder='Phone Number'><br></td></tr>
+            <tr><td>Password:</td><td><input type='password' name='pinput' required placeholder='Password'><br></td></tr>
+        </table><input id='submitbutton' type='submit' value='Sign Up'>
+    </form>
+</body>
+</html>
