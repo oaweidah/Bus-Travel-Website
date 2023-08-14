@@ -1,2 +1,2 @@
 # Bus-Travel-Website
-A site made using HTML/CSS with a mySQL database and an ExpressJS backend that allows users to view, book, edit, and cancel bus tickets.
+Co-designed a dynamic bus travel website using HTML and CSS to create an intuitive user interface, implemented a robust mySQL database to manage data, and utilized ExpressJS for the backend to enable functionalities including ticket viewing, booking, editing and cancelling. Effectively combined technical skills with a user-centric approach to enhance the overall user experience and streamline bus ticket management.
